@@ -2,6 +2,8 @@
 
 Meaningful Search is a powerful tool designed to find the most similar paragraphs in a large collection of PDF files based on the input text. It uses BERT (Bidirectional Encoder Representations from Transformers), a transformer-based machine learning model to create semantic representations of the input and the text from the PDF files. These representations are then compared using cosine similarity to find the most similar paragraphs.
 
+<img src="https://github.com/alihakimtaskiran/SemanticSearch/blob/main/screenshoot.png" width="400">
+
 ## Getting Started
 
 ### Prerequisites
