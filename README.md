@@ -70,10 +70,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Ali Hakim Taskiran - [alihakimxyz@gmail.com](mailto:alihakimxyz@gmail.com)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+Project Link: [https://github.com/alihakimtaskiran/SemanticSearch](https://github.com/alihakimtaskiran/SemanticSearch)
 ## Acknowledgments
 
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
