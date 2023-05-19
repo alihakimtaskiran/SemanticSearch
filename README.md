@@ -46,16 +46,23 @@ cache_pdf_encodings('path/to/your/pdf/files/')
 ```
 This will create a SQLite database named `pdf_encodings.db` containing the semantic representations of the text in your PDF files.
 
-2. Run `search.py` to start the Meaningful Search application:
+2. Run `search-GUI.py` or `search-CLI.py` to start the Meaningful Search application:
 ```python
-python search.py
+python search-GUI.py
 ```
 
-### How to use the App
+### How to use the App (GUI)
 
 1. Enter the text you want to search in the input field.
 2. Specify the number of most similar paragraphs you want to display using the spinner.
 3. Click the 'Search' button to start the search. The application will display the most similar paragraphs along with their similarity scores, the names of the books they came from, and their page numbers.
+
+
+### How to use the App (CLI)
+
+1. Enter the text you want to search.
+2. Enter the number of most similar paragraohs you want to display.
+3. Click the 'Enter' button to start the search. The application will display the most similar paragraphs along with their similarity scores, the names of the books they came from, and their page numbers.
 
 ## Contributing
 
