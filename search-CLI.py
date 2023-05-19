@@ -44,8 +44,12 @@ class AppCLI:
 
 if __name__ == '__main__':
     app = AppCLI()
-    text = input('Enter your text: ')
-    top_n = int(input('Enter the number of top entries: '))
-    result = app.run_cosine_similarity(text, top_n)
-    print(result)
-
+    while True:
+        try:
+            text = input('Enter your text: ')
+            top_n = int(input('Enter the number of top entries: '))
+            result = app.run_cosine_similarity(text, top_n)
+            print(result)
+        except KeyboardInterrupt:
+            print('\nExiting application...')
+            break
